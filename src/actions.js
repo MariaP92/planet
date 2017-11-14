@@ -1,7 +1,7 @@
 import store from "./store";
 
 export async function Showplanet(){
-    console.log("dsadasd");
+
   const url1 = "data/Kepler-22b.json";
   const url2 = "data/Kepler-62f.json";
   const url3 = "data/Kepler-69c.json";
@@ -11,8 +11,6 @@ export async function Showplanet(){
       let newList = [];
       newList = [...store.getState().items];
       newList.push(res);
-      console.log(res);
-
       store.setState({
         items: newList
       });
@@ -23,8 +21,6 @@ export async function Showplanet(){
       let newList = [];
       newList = [...store.getState().items];
       newList.push(res);
-      console.log(res);
-
       store.setState({
         items: newList
       });
@@ -35,8 +31,6 @@ export async function Showplanet(){
       let newList = [];
       newList = [...store.getState().items];
       newList.push(res);
-      console.log(res);
-
       store.setState({
         items: newList
       });

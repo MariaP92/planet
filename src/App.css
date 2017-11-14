@@ -1,0 +1,28 @@
+.Header{
+  margin: 0 auto;
+  background-color: #395381;
+  padding: 20px;
+  color: white;
+}
+
+.btnShow{
+  margin-top: 20px;
+  background-color: #395381;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.sizeIMG {
+  width: 20%;
+}
+
+.list ul{
+  text-decoration: none;
+  list-style:none;
+}
+
+.containInfo{
+  background-color: #AFAFAF;
+  padding: 15px;
+  margin: 30px;
+}
